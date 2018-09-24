@@ -1,7 +1,6 @@
 """Parent class"""
 class Pets:
     
-
     dogs = []
 
 
