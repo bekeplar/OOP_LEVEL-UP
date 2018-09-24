@@ -8,7 +8,7 @@ class Pets:
         self.dogs = dogs
 
 
-"""Another parent class"""
+"""Another parent class separate from pet"""
 class Dog:
 
     """Class attribute"""
