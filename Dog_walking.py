@@ -39,20 +39,23 @@ class Dog:
 
     
     """Create instances of the dogs"""
-dogs = [
+pets = Pets(dogs = [
     Dog("Tom", 6), 
     Dog("Fletcher", 7), 
     Dog("Larry", 9)
-]
+])
 
 are_dogs_hungry = False
 for dog in pets.dogs:
     if dog.is_hungry:
         are_dogs_hungry = True
 
-    if are_dogs_hungry:
-        print("My dogs are hungry.")
-        else:
-           print("My dogs are not hungry.") 
+if are_dogs_hungry:
+    print("My dogs are hungry.")
+else:
+        print("My dogs are not hungry.") 
 
-my_pets.walk()         
+pets.walk() 
+
+
+#output

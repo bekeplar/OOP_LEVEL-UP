@@ -1,4 +1,5 @@
 """Parent class"""
+
 class Pets:
     
     dogs = []
@@ -26,20 +27,21 @@ class Dog:
         self.is_hungry = False
 
     are_dogs_hungry = False
-    for dog in pets.dogs:
+    for dog in Pets.dogs:
         if dog.is_hungry:
             are_dogs_hungry = True
 
     if are_dogs_hungry:
         print("My dogs are hungry.")
-        else:
+    else:
            print("My dogs are not hungry.")   
 
 
 
     """Create instances of the dogs"""
 
-dogs = [
+
+Pets.dogs = [
     Dog("Tom", 6), 
     Dog("Fletcher", 7), 
     Dog("Larry", 9)
