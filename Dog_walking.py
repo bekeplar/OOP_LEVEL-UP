@@ -35,7 +35,7 @@ class Dog:
     
 
     def walk(self):
-        return "%s is walking!" % (self.name)
+        return "{} is walking!" .format(self.name)
 
     
     """Create instances of the dogs"""
